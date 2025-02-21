@@ -20,7 +20,7 @@ This project implements an object detection system for identifying solar panels 
 - **Resolution**: 31 cm native resolution images (416x416 pixels)
 - **Annotation Format**: MS-COCO
 - **Annotation Type**: Horizontal Bounding Boxes (HBB)
-- **Data Source**: Available on ![Google Drive](https://drive.google.com/drive/folders/13QfMQ-7OdWKw-LR8DmypKwSHtI0Hk2wh?usp=sharing) with corresponding labels and documentation
+- **Data Source**: Available on [Google Drive](https://drive.google.com/drive/folders/13QfMQ-7OdWKw-LR8DmypKwSHtI0Hk2wh?usp=sharing) with corresponding labels and documentation
 
 ## Implementation Details
 
@@ -33,7 +33,7 @@ This notebook handles the initial data analysis and understanding:
 - Calculates actual areas of solar panels using:
   - Pixel size (0.31m)
   - Fill factor (0.85)
-  - Tilt angle calculation based on latitude given in this ![research paper](https://web.stanford.edu/group/efmh/jacobson/Articles/I/TiltAngles.pdf)
+  - Tilt angle calculation based on latitude given in this [research paper](https://web.stanford.edu/group/efmh/jacobson/Articles/I/TiltAngles.pdf)
 - Visualizes area distributions using histogram plots
 - 
 ### 2. Core Functions (`Functions.py`)
