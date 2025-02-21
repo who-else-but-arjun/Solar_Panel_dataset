@@ -1,6 +1,6 @@
-# Solar Panel Detection Project
+# Solar Panel Detection 
 
-This project implements an object detection system for identifying solar panels in aerial imagery using YOLO (You Only Look Once) and various computer vision techniques. The project includes data exploration, implementation of fundamental object detection metrics, and model training/evaluation.
+This project implements an object detection system for identifying solar panels in aerial imagery using YOLO (You Only Look Once). The project also includes data exploration, implementation of fundamental object detection metrics, and model training/evaluation.
 
 ## Project Structure
 
@@ -20,7 +20,7 @@ This project implements an object detection system for identifying solar panels 
 - **Resolution**: 31 cm native resolution images (416x416 pixels)
 - **Annotation Format**: MS-COCO
 - **Annotation Type**: Horizontal Bounding Boxes (HBB)
-- **Data Source**: Available on Google Drive with corresponding labels and documentation
+- **Data Source**: Available on ![Google Drive](https://drive.google.com/drive/folders/13QfMQ-7OdWKw-LR8DmypKwSHtI0Hk2wh?usp=sharing) with corresponding labels and documentation
 
 ## Implementation Details
 
@@ -33,13 +33,12 @@ This notebook handles the initial data analysis and understanding:
 - Calculates actual areas of solar panels using:
   - Pixel size (0.31m)
   - Fill factor (0.85)
-  - Tilt angle calculation based on latitude
+  - Tilt angle calculation based on latitude given in this ![research paper](https://web.stanford.edu/group/efmh/jacobson/Articles/I/TiltAngles.pdf)
 - Visualizes area distributions using histogram plots
-- Includes UTM to latitude/longitude conversion functionality
-
+- 
 ### 2. Core Functions (`Functions.py`)
 
-Contains essential utility functions:
+Contains utility functions:
 
 - `iou()`: Computes Intersection over Union using Shapely library
 - `AP()`: Implements Average Precision calculation with three methods:
@@ -65,7 +64,7 @@ Handles the complete model pipeline:
 - Implements 80-20 train-test split with 10% validation
 - Trains YOLO model on the dataset
 - Evaluates model performance using multiple metrics:
-  - mAP50 (compared between custom and supervision implementations)
+  - mAP50 (compared between our and supervision implementations)
   - Precision, Recall, and F1-scores at various IoU and confidence thresholds
 - Includes visualization of predictions on test samples
 
