@@ -52,7 +52,7 @@ Contains utility functions:
 Demonstrates and validates the implementation of fundamental object detection metrics:
 
 - Compares custom IoU implementation with supervision library
-- Tests AP calculation methods on randomly generated data
+- Tests AP calculation methods on randomly generated data shown in the image below ![Samples](results/10.png)
 - Includes visualization of evaluation results
 - Provides comparative analysis of different AP calculation methods
 
