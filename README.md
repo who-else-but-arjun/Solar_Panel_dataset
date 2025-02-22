@@ -34,8 +34,7 @@ This notebook handles the initial data analysis and understanding:
   - Pixel size (0.31m)
   - Fill factor (0.85)
   - Tilt angle calculation based on latitude given in this [research paper](https://web.stanford.edu/group/efmh/jacobson/Articles/I/TiltAngles.pdf)
-- Visualizes area distributions using histogram plots
-- 
+- Visualizes area distributions using histogram plots ![Plot](results/area.png)
 ### 2. Core Functions (`Functions.py`)
 
 Contains utility functions:
