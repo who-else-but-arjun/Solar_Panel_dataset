@@ -22,7 +22,9 @@ This project implements an object detection system for identifying solar panels 
 - **Annotation Type**: Horizontal Bounding Boxes (HBB)
 - **Data Source**: Available on [Google Drive](https://drive.google.com/drive/folders/13QfMQ-7OdWKw-LR8DmypKwSHtI0Hk2wh?usp=sharing) with corresponding labels and documentation
 - Sample of the given data shown below
-- ![Sample](results/eg.png)
+<p align="center">
+  <img src="results/eg.png" width="60%" />
+</p>
 ## Implementation Details
 
 ### 1. Data Exploration (`Data Exploration and Understanding.ipynb`)
@@ -53,7 +55,10 @@ Contains utility functions:
 Demonstrates and validates the implementation of fundamental object detection metrics:
 
 - Compares custom IoU implementation with supervision library
-- Tests AP calculation methods on randomly generated data shown in the image below ![Samples](results/10.png)
+- Tests AP calculation methods on randomly generated data shown in the image below
+<p align="center">
+  <img src="results/10.png" width="45%" />
+</p>
 - Includes visualization of evaluation results
 - Provides comparative analysis of different AP calculation methods
 
@@ -70,7 +75,7 @@ Handles the complete model pipeline:
 - Includes visualization of predictions on test samples
 - <p align="center">
   <img src="results/1.png" width="45%" />
-  <img src="results/1.png" width="45%" />
+  <img src="results/2.png" width="45%" />
 </p>
 
 
