@@ -25,6 +25,7 @@ This project implements an object detection system for identifying solar panels 
 <p align="center">
   <img src="results/eg.png" width="60%" />
 </p>
+
 ## Implementation Details
 
 ### 1. Data Exploration (`Data Exploration and Understanding.ipynb`)
