@@ -68,7 +68,11 @@ Handles the complete model pipeline:
   - Precision, Recall, and F1-scores at various IoU and confidence thresholds
 - ![](results/heat.png) ![](results/line.png)
 - Includes visualization of predictions on test samples
-- ![](results/1.png) ![](results/2.png) 
+- <p align="center">
+  <img src="results/1.png" width="45%" />
+  <img src="results/1.png" width="45%" />
+</p>
+
 
 ### 5. Training Configuration (`Ran on Kaggle.ipynb`)
 
