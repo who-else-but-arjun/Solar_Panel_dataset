@@ -93,6 +93,7 @@ results = model.train(
     augment=True
 )
 ```
+![](results/results.png)
 
 ## Key Features
 
