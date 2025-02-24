@@ -21,7 +21,8 @@ This project implements an object detection system for identifying solar panels 
 - **Annotation Format**: MS-COCO
 - **Annotation Type**: Horizontal Bounding Boxes (HBB)
 - **Data Source**: Available on [Google Drive](https://drive.google.com/drive/folders/13QfMQ-7OdWKw-LR8DmypKwSHtI0Hk2wh?usp=sharing) with corresponding labels and documentation
-
+Sample of the given data shown below
+[Sample](results/eg.png)
 ## Implementation Details
 
 ### 1. Data Exploration (`Data Exploration and Understanding.ipynb`)
