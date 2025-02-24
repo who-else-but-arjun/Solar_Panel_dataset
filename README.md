@@ -66,7 +66,9 @@ Handles the complete model pipeline:
 - Evaluates model performance using multiple metrics:
   - mAP50 (compared between our and supervision implementations)
   - Precision, Recall, and F1-scores at various IoU and confidence thresholds
+- ![](results/heat.png) ![](results/line.png)
 - Includes visualization of predictions on test samples
+- ![](results/1.png) ![](results/2.png) 
 
 ### 5. Training Configuration (`Ran on Kaggle.ipynb`)
 
