@@ -105,7 +105,7 @@ results = model.train(
 ```
 ![](results/results.png)
 
-## Key Features
+## Tasks Done
 
 1. **Area Calculation**: Implements accurate solar panel area calculation considering:
    - Physical pixel size
@@ -127,7 +127,7 @@ results = model.train(
    - Various confidence thresholds (0.1, 0.3, 0.5, 0.7, 0.9)
    - Comparison between custom and library implementations
 
-## Dependencies
+## Requirements
 
 - ultralytics
 - numpy
@@ -141,7 +141,7 @@ results = model.train(
 - shapely
 - scikit-learn
 
-## Usage
+## Reproduce
 
 1. Install required dependencies
 2. Organize dataset in the specified structure
